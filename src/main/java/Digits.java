@@ -10,7 +10,7 @@ public class Digits
 		digitList = new ArrayList <Integer>();
 		if (num == 0)
 			digitList.add(0);
-		int n = num
+		int n = num;
 		while (n > 0){
 			digitList.add(0,n%10);
 			n = n / 10;
